@@ -26,6 +26,7 @@ class SmartDataAnalyzer:
             print(f"Error loading data: {e}")
             raise
 
+
     def setup_plotting_style(self):
         """Configure plotting style for better aesthetics"""
         sns.set_style("darkgrid")
